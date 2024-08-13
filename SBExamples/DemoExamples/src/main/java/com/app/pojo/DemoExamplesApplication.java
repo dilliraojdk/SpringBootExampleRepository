@@ -10,6 +10,9 @@ public class DemoExamplesApplication {
 		SpringApplication.run(DemoExamplesApplication.class, args);
 		System.out.println("hiii");
                 int i=1000;
+                int y=2000;
+                int z=x+y;
+               System.out.println(z);
 	}
 
 }
